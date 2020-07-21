@@ -40,8 +40,3 @@ variable "tags" {
   default = null
 }
 
-variable "module_depends_on" {
-  type        = any
-  description = "A list of external resources the module depends_on"
-  default     = []
-}
